@@ -7,8 +7,11 @@ Tasks:
 1. Write a python function that evaluates the given distribution function.
 2. Derive the analytic expressions of the mean and standard deviation of the given distribution
 function. Since the function is defined on a continuous variable in the \[0,1\) interval, you should be using the following formulas
-  a. <a href="https://www.codecogs.com/eqnedit.php?latex=\mu=\int_0^1r(x)\:x\:dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu=\int_0^1r(x)\:x\:dx" title="\mu=\int_0^1r(x)\:x\:dx" /></a>
-  b. <a href="https://www.codecogs.com/eqnedit.php?latex=\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" title="\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\mu=\int_0^1r(x)\:x\:dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\mu=\int_0^1r(x)\:x\:dx" title="\mu=\int_0^1r(x)\:x\:dx" /></a>
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" title="\sigma^2=\int_0^1r(x)\:(x-\mu)^2\:dx" /></a>
+
 3. Plot the function in its relevant range
 4. Use the numpy.random.random() function to sample points from the distribution. Generate one sample with n=10 points and plot its frequency distribution.
 5. Generate 100 samples with n=10 points. For each sample compute its mean. Collect all the means of the different samples and compute (and plot) the frequency distribution of the means of the samples (i.e. the sampling distribution of the mean).
