@@ -3,6 +3,8 @@ Consider a population that is uniformly distributed in the \[0,1\) interval (i.e
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r(x)=\begin{matrix}&space;1&space;&&space;\text{for&space;}&space;x\in\left[0,1&space;\right)\\&space;0&space;&&space;\text{otherwise}&space;\end{matrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r(x)=\begin{matrix}&space;1&space;&&space;\text{for&space;}&space;x\in\left[0,1&space;\right)\\&space;0&space;&&space;\text{otherwise}&space;\end{matrix}" title="r(x)=\begin{matrix} 1 & \text{for } x\in\left[0,1 \right)\\ 0 & \text{otherwise} \end{matrix}" /></a>
 
+Python has several modules that allow you to sample this distribution, i.e. to generate values of x with a probability given by the distribution function. Although the random module has its own function to sample the above distribution (can you find out which one?), you should be using the numpy.random.random() function. This is because this function has an optional argument that allows you to specify how many points you want to generate and the function will put its output directly into a numpy array.
+
 Tasks: 
 1. Write a python function that evaluates the given distribution function.
 2. Derive the analytic expressions of the mean and standard deviation of the given distribution
