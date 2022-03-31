@@ -1,4 +1,4 @@
-# Week 14 Assignment A
+# Distributions and Central Limit Theorem
 Consider a population that is uniformly distributed in the \[0,1\) interval (i.e. it follows the a constant distribution where every value in the interval is equally probable). The distribution function is thus
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=r(x)=\begin{matrix}&space;1&space;&&space;\text{for&space;}&space;x\in\left[0,1&space;\right)\\&space;0&space;&&space;\text{otherwise}&space;\end{matrix}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?r(x)=\begin{matrix}&space;1&space;&&space;\text{for&space;}&space;x\in\left[0,1&space;\right)\\&space;0&space;&&space;\text{otherwise}&space;\end{matrix}" title="r(x)=\begin{matrix} 1 & \text{for } x\in\left[0,1 \right)\\ 0 & \text{otherwise} \end{matrix}" /></a>
